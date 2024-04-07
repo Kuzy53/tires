@@ -1,0 +1,24 @@
+.carousel {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* max-width: 1420px; */
+   }
+   
+   .carousel::-webkit-scrollbar {
+    display: none;
+}
+
+   .carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+   }
+   
+   .table__card {
+    flex: 0 0 auto;
+    /* margin-right: 20px; */
+    scroll-snap-align: start;
+   }

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "inlineSources": true,
+    // Set `sourceRoot` to  "/" to strip the build path prefix from
+    "sourceRoot": "/",
+
+    "noImplicitAny": true,
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "strict": true,
+    "target": "ES5",
+    "paths": {
+      "assets/*": ["assets/*"],
+      "app/*": ["app/*"],
+      "pages/*": ["pages/*"],
+      "shared/*": ["shared/*"],
+      "modules/*": ["modules/*"]
+    },
+    "skipLibCheck": true,
+  }
+}
